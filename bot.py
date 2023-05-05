@@ -19,10 +19,10 @@ async def start_handler(_, cmd):
         "HI, I am Cloud Uploads Manager Bot!\n\nI can Do a Lot of Things, Check > /help <",
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Developer", url=""),
-                 InlineKeyboardButton("Support Group", url="")],
-                [InlineKeyboardButton("Bots Channel", url="")],
-                [InlineKeyboardButton("Bot's Source Code", url="")]
+                [InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005"),
+                 InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")],
+                [InlineKeyboardButton("Bots Channel", url="https://t.me/linux_repo")],
+                [InlineKeyboardButton("Bot's Source Code", url="https://github.com/Nirmalraj10567/zee5-dl-bot")]
             ]
         )
     )
@@ -36,8 +36,8 @@ async def help_handler(_, cmd):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Support Group", url=""),
-                 InlineKeyboardButton("Developer", url="")],
+                [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo"),
+                 InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005")],
                 [InlineKeyboardButton("Delete GoFile.io File", switch_inline_query_current_chat="!godel ")],
                 [InlineKeyboardButton("Delete Streamtape File (Admin Only)",
                                       switch_inline_query_current_chat="!stdel ")],

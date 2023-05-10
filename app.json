@@ -13,26 +13,26 @@
     "success_url": "https://t.me/Discovery_Updates",
     "env": {
         "API_ID": {
-            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+            "description": "21347819"
         },
         "API_HASH": {
-            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+            "description": "3d9e35374cc5aa394c123dd8062b3469"
         },
         "BOT_TOKEN": {
-            "description": "Get this from @BotFather XD"
+            "description": "6124896722:AAFwfLrJjdISzCcFheCEACyQz-RwdJvAtZ8"
         },
         "STREAMTAPE_API_USERNAME": {
-            "description": "Streamtape API Username. Get this from https://streamtape.com/accpanel#collapseThree"
+            "description": "ede3799345194ba16e61"
         },
         "STREAMTAPE_API_PASS": {
-            "description": "Streamtape API Password. Get this from https://streamtape.com/accpanel#collapseThree"
+            "description": "bQ9j1GMrrltPkQK"
         },
         "BOT_OWNER": {
-            "description": "Bot Owner UserID",
+            "description": "27723431",
             "required": false
         },
         "LOG_CHANNEL": {
-            "description": "Logs Channel ID for some Tracking XD. Example: -100123456789"
+            "description": "-1001943348198"
         }
     },
     "buildpacks": [
